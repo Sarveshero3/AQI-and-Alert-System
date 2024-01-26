@@ -8,9 +8,7 @@ import time
 
 # Define your list of API keys
 api_keys = [
-    '579b464db66ec23bdd000001a8bc4ec926b3400645101c1e5f603f03',
-    '579b464db66ec23bdd000001829ee499234d49cf579717ef6afcc948',
-    '579b464db66ec23bdd00000169f75cdd412a48d56f191fe9d0957628'
+    'API KEYS HERE, copy ->> https://api.data.gov.in/resource/3b01bcb8-0b14-4abf-b6f2-c1bfd384ba69'
 ]
 
 # Define the number of offset partitions

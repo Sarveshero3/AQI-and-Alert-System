@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 data = {}
 
 # Parse the XML file
-tree = ET.parse(r"C:\Users\Sarvesh Chandran\Desktop\Passion\Python Files\Programs\Projects\data_aqi_cpcb.xml")
+tree = ET.parse(r"data_aqi_cpcb.xml")
 root = tree.getroot()
 
 # Loop through the XML elements and extract the required information

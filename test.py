@@ -66,8 +66,6 @@ def get_air_quality_for_station(target_station, max_attempts=20, time_threshold=
                         print(f"Station: {row['station']}")
                         print(f"Last Update: {row['last_update']}")
                         print(f"Pollutant ID: {row.get('pollutant_id', 'N/A')}")
-                        print(f"Pollutant Min: {row.get('pollutant_min', 'N/A')}")
-                        print(f"Pollutant Max: {row.get('pollutant_max', 'N/A')}")
                         print(f"Pollutant Avg: {row.get('pollutant_avg', 'N/A')}")
                         return  # Stop after finding the target row
 

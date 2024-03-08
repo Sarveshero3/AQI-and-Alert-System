@@ -8,7 +8,7 @@ import time
 
 # Define your list of API keys
 api_keys = [
-    '579b464db66ec23bdd000001a8bc4ec926b3400645101c1e5f603f03'
+    '579b464db66ec23bdd000001a8bc4ec926b3400645101c1e5f603f0326'
 ]
 
 # Define the number of offset partitions
@@ -76,5 +76,3 @@ def get_air_quality_for_station(target_station, max_attempts=20, time_threshold=
 
 # Replace 'Your Target Station Name' with the station name you want to select
 get_air_quality_for_station(selected_station, time_threshold=10)
-
-print("Hello World")

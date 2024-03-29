@@ -80,3 +80,4 @@ for i in a:
 print(d)
 
 print("Kavish please do tfhghjg")
+print("NO")
